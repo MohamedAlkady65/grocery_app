@@ -1,0 +1,3 @@
+class OldCartValue {
+  int? value;
+}

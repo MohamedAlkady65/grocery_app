@@ -1,0 +1,130 @@
+
+
+
+
+
+
+
+
+Remaining Goals
+-search
+-filters
+
+=============================================================
+
+FUTURE FEATURES : - Responsivness - Dark Theme - Localization - Animationn
+
+=============================================================
+
+
+---
+
+10-understant otp field
+11-understand expadable text
+12-understand layout builder
+13-understand constrains
+28-understand Navigator.popUntil
+understand sort , compareTo
+
+4-silver app bar
+5-search bar filter icon
+23-image loading placeholder
+24-fix hero in product details
+7-handle resposive of background image
+8-handle resposive of products grid view
+session-expired => The sms code has expired. Please re-send the verification code to try again.
+user-token-expired
+--------------------------------------
+
+
+DONE:
+-------------
+
+make auth sheet scrollable-------------------------------------------
+bottom navigation bar -----------------------------------------------
+search bar-----------------------------------------------------------
+elevation cart sheet-------------------------------------------------
+find way to add spacer in list view----------------------------------
+use visability widget------------------------------------------------
+splash for all buttons-----------------------------------------------
+loading before signout-----------------------------------------------
+space between orders in my orders------------------------------------
+handle multiple taps by timer----------------------------------------
+set image to Boxfit.contain------------------------------------------
+refactor text buttons------------------------------------------------
+validate account details---------------------------------------------
+make colors const----------------------------------------------------
+check order Id-------------------------------------------------------
+refactore dio--------------------------------------------------------
+clear cart-----------------------------------------------------------
+clear favorites------------------------------------------------------
+back button at home--------------------------------------------------
+use late in models---------------------------------------------------
+Handle invalid phone numbers-----------------------------------------
+validate send otp----------------------------------------------------
+user use phone exists------------------------------------------------
+Check length of fields-----------------------------------------------
+TextInputAction------------------------------------------------------
+landing from network-------------------------------------------------
+fix isSvg------------------------------------------------------------
+success order scrollable---------------------------------------------
+handle Empty Screens-------------------------------------------------
+validate phone address-----------------------------------------------
+add international phone number---------------------------------------
+choose country-------------------------------------------------------
+sort cart , favorites items -----------------------------------------
+date-----------------------------------------------------------------
+Check internet-------------------------------------------------------
+handle isClosed------------------------------------------------------
+refactore products---------------------------------------------------
+refactore product item-----------------------------------------------
+from favorite,cart,order to product details--------------------------
+order item on tap----------------------------------------------------
+date like ago--------------------------------------------------------
+use Shimmer----------------------------------------------------------
+refactor all cubits to use listeners---------------------------------
+
+
+
+
+NOTES:
+
+context.mounted
+checkout cubit
+
+
+
+
+
+
+refactore large components (textfield)
+failuire widgets
+resend code message
+firebase eception when no internet
+set colors in theme
+payment screen exception
+toast exception
+fix camera
+custom alert in webview
+loading image in product details
+Remove account when no email verification
+
+
+extention : to do list 
+
+
+
+
+sign out when no current user
+Signs out the current userو If successful, it also updates any [authStateChanges], [idTokenChanges] or [userChanges] stream listeners.
+
+-----------------------------------------------
+
+
+"We have sent code to $phone"
+"\$${widget.item.product.price.toStringAsFixed(2)} x ${widget.item.count}"
+"Order #${order.id}"
+"Placed on \n${DateHelper.getDate(date: order.steps[0]!, context: context).toString()}"
+"${widget.product.reviewsCount} review${widget.product.reviewsCount == 1 ? "" : "s"}"
+"$value second${value > 1 ? "s" : ""} ago"
+ "\$${price.toStringAsFixed(2)}"
